@@ -4,8 +4,70 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-image: url(./images/images.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(228, 197, 158);
+}
+@font-face {
+    font-family:bungee ;
+    src:url(./Bungee_Tint/BungeeTint-Regular.ttf);
+
+}
+@font-face {
+    font-family: grey;
+    src: url(./Grey_Qo/GreyQo-Regular.ttf);
+}
+.main-container{
+    display:flex;
+    align-items: center;
     
 }
+.nav-links {
+    margin-left: 40%;
+    
+    
+    
+}
+.nav-links a{
+    background-color: rgb(175, 130, 96);
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+}
+.nav-logo{
+    margin-left: 5%;
+}
+.main-navbar{
+display: flex;
+margin-top: 7%;
+}
+.nav-title{
+    margin-left: 10%;
+}
+.nav-title h1{
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(128, 61, 59);
+    font-family: bungee;
+}
+.nav-title h2{
+    font-family: grey;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 60px;
+    font-size: xx-large;
+}
+.nav-banaal{
+    margin-left: 30%;
+}
+.nav-side{
+    margin-left: 100px;
+
+}
+.nav-side img{
+    
+    width: 80%;
+}
+
+
