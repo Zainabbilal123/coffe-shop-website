@@ -4,7 +4,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 body{
-    background-color: rgb(228, 197, 158);
+    background-image: url(./images/images\ \(2\).jfif);
+    background-size: cover;
+
 }
 @font-face {
     font-family:bungee ;
@@ -21,7 +23,7 @@ body{
     
 }
 .nav-links {
-    margin-left: 40%;
+    margin-left: 45%;
     
     
     
@@ -40,7 +42,7 @@ body{
 }
 .main-navbar{
 display: flex;
-margin-top: 7%;
+margin-top: 5%;
 }
 .nav-title{
     margin-left: 10%;
@@ -50,6 +52,7 @@ margin-top: 7%;
     text-transform: uppercase;
     color: rgb(128, 61, 59);
     font-family: bungee;
+    font-size: xx-large;
 }
 .nav-title h2{
     font-family: grey;
@@ -59,7 +62,78 @@ margin-top: 7%;
     font-size: xx-large;
 }
 .nav-banaal{
-    margin-left: 30%;
+    margin-left: 20%;
+   
+   
+}
+.nav-banaal img{
+    width: 500px;
+    position: relative;
+    animation: move 1s both;
+    margin-bottom: 15%;
+}
+.coffee-corner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.coffee-corner2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.coffee-corner .coffe-cards{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
+    background-size: cover;
+    
+
+}
+.coffe-cards img{
+    width: 150px;
+    height: 130px;
+    position: relative;
+    top: -40px;
+    border-radius: 50%;
+}
+.coffee-corner2 .coffe-cards{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
+background-size: cover;
+
+}
+.coffe-cards h1{
+    margin-top: -15px;
+    text-transform: capitalize;
+    color: white;
+}
+.coffe-cards p{
+    font-size: 13px;
+    padding: 5px;
+    color: white;
+}
+h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(128, 61, 59);
+    padding-top: 10px;
+}
+
+
+@keyframes move{
+    from{right: 0px;}
+    to {right: 50px;}
+
 }
 .nav-side{
     margin-left: 100px;
@@ -67,7 +141,95 @@ margin-top: 7%;
 }
 .nav-side img{
     
-    width: 80%;
+    width: 150%;
 }
+/* for pc */
+@media (max-width:1000px) {
+    .nav-links {
+        margin-left: 30%;}
+        .nav-title{
+            margin-left: 5%;
+        }
+        .nav-banaal{
+            margin-left: 20%;
+        }
+        
+        
+        
+    
+
+}
+/* for tab */
+@media (max-width:780px){
+    .nav-links {
+        margin-left: 20%;}
+        .nav-title{
+            margin-left: 1%;
+        }
+        .nav-banaal{
+            margin-left: 5%;
+        }
+        .nav-banaal img{
+            width: 400px;
+        }
+        @keyframes move{
+            from {right:0px}
+            to {right:10px}
+            
+        }
+        .nav-side{
+            width: 120px;
+        }
+    
+}
+/* for mobile */
+@media (max-width:420px) {
+    
+    .nav-links a{
+       
+        font-size: 1.6vh;
+       padding: 5px 5px;
+    }
+    .nav-links{
+        padding-right: 15px;
+        margin-top: 20px;
+      
+       
+    }
+    .nav-logo{
+        padding-left: 10px;
+       
+    }
+    .nav-logo img{
+        width: 50px;
+        height: 50px;
+    }
+    
+    
+
+   
+        .nav-title{
+           padding: 60px 20px;}
+           .nav-title h1{
+            font-size: 3vh;
+           }
+           .nav-title h2{
+            font-size: 2vh;
+           }
+        .nav-banaal img{
+            width: 150px;
+            padding: 2px;
+            margin: 8px 0;
+            margin-bottom: 0;
+        }
+        .nav-banaal{
+            margin-top: 20%;
+        }
+        .nav-side img{
+            width: 100px;
+        }
+
+}
+
 
 
