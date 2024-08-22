@@ -143,6 +143,12 @@ h3{
     
     width: 150%;
 }
+.beans-corner{
+    display: flex;
+}
+.beans-image{
+    position:absolute;
+}
 /* for pc */
 @media (max-width:1000px) {
     .nav-links {
