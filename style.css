@@ -271,7 +271,8 @@ transition: transform 0.5s ease-in-out 0.9s ;
     justify-content: space-evenly;
     margin-top: 150px;
     padding-top: 50px;
-    background-color: #757272;
+    background-color:transparent;
+    border: 5px solid #322C2B;
     color: #020202;
     
  }
@@ -280,6 +281,7 @@ transition: transform 0.5s ease-in-out 0.9s ;
  }
  footer h4{
     margin-bottom: 20px;
+    text-transform: capitalize;
  }
  footer ul li{
     list-style-type: none;
