@@ -33,7 +33,7 @@ body{
     padding: 10px;
     border-radius: 10px;
     text-decoration: none;
-    color: white;
+    color:#322C2B;
     font-size: medium;
     text-transform: uppercase;
 }
@@ -46,6 +46,7 @@ margin-top: 5%;
 }
 .nav-title{
     margin-left: 10%;
+    
 }
 .nav-title h1{
     font-weight: bold;
@@ -59,7 +60,7 @@ margin-top: 5%;
     font-weight: bold;
     text-transform: capitalize;
     padding-left: 60px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 .nav-banaal{
     margin-left: 20%;
@@ -90,8 +91,15 @@ margin-top: 5%;
     margin-bottom: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
     background-size: cover;
-    
+    transition: transform 0.5s ease-in-out 0.9s ;
 
+}
+
+
+
+.coffee-corner .coffe-cards:hover{
+    transform: scale(1.1);
+ 
 }
 .coffe-cards img{
     width: 150px;
@@ -108,7 +116,12 @@ margin-top: 5%;
     margin-bottom: 50px;
     background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
 background-size: cover;
+transition: transform 0.5s ease-in-out 0.9s ;
 
+}
+.coffee-corner2 .coffe-cards:hover{
+    transform: scale(1.1);
+ 
 }
 .coffe-cards h1{
     margin-top: -15px;
@@ -125,14 +138,14 @@ h3{
     text-transform: uppercase;
     font-size: 50px;
     font-weight: bolder;
-    color: rgb(128, 61, 59);
+    color:#322C2B;
     padding-top: 10px;
 }
 
 
 @keyframes move{
     from{right: 0px;}
-    to {right: 50px;}
+    to {right: 30px;}
 
 }
 .nav-side{
@@ -143,6 +156,118 @@ h3{
     
     width: 150%;
 }
+.beans-corner{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 40px 40px;
+    margin-top: 50px;
+    align-items: center;
+}
+.beans-corner img{
+    margin-right: 20px;
+    width: 200%;
+}
+.beans-corner p{
+    color: #322C2B;
+    font-weight: 900;
+    font-size: x-large;
+    text-transform: capitalize;
+    margin-left: 90px;
+}
+.ice-coffee-corner{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+.ice-coffee-corner2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.ice-coffee-corner .ice-cards{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
+    background-size: cover;
+    transition: transform 0.5s ease-in-out 0.9s ;
+
+}
+
+
+
+.ice-coffee-corner .ice-cards:hover{
+    transform: scale(1.1);
+ 
+}
+.ice-cards img{
+    width: 120px;
+    height: 150px;
+    position: relative;
+    top: -70px;
+  
+   
+}
+.ice-coffee-corner2 .ice-cards{
+    width: 190px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.265),rgba(0,0,0,0.265)),url(./images/images\ \(1\).jfif);
+background-size: cover;
+transition: transform 0.5s ease-in-out 0.9s ;
+
+}
+.ice-coffee-corner2 .ice-cards:hover{
+    transform: scale(1.1);
+ 
+}
+.ice-cards h1{
+    margin-top: -20px;
+    text-transform: capitalize;
+    color: white;
+}
+.beans-heading{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #322C2B;
+    margin-top: 50px;}
+    .beans-corner{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .beans-corner .beans-cards{
+        width: 180px;
+        height: 150px;
+        border: 2px solid white;
+        background-color: rgb(189, 187, 187);
+        text-align: center;
+        transition: transform 0.5s ease-in-out 0.9s ;
+        box-shadow: 5px 5px 5px 5px #706c6c;
+
+    }
+    .beans-corner .beans-cards:hover{
+        transform: scale(1.1);
+       
+    }
+    .beans-cards img{
+        width: 180px;
+        height: 180px;
+        position: relative;
+        top: -80px;
+        align-items: center;
+    }
+ .beans-cards h4{
+    margin-top: -75px;
+    text-transform: capitalize;
+    color:#322C2B;
+ }   
+
+
 /* for pc */
 @media (max-width:1000px) {
     .nav-links {
@@ -153,7 +278,18 @@ h3{
         .nav-banaal{
             margin-left: 20%;
         }
-        
+        .coffee-corner .coffe-cards{
+            width: 190px;
+            height: 190px;
+        }
+        .coffee-corner2 .coffe-cards{
+            width: 190px;
+            height: 190px;
+        }
+        .coffe-cards img{
+            width: 150px;
+            height: 130px;
+        }
         
         
     
@@ -180,8 +316,61 @@ h3{
         .nav-side{
             width: 120px;
         }
-    
+        .coffee-corner .coffe-cards{
+            width: 150px;
+            height: 170px;
+        }
+        .coffee-corner2 .coffe-cards{
+            width: 150px;
+            height: 170px;
+        }
+        .coffe-cards img{
+            width: 120px;
+            height: 100px;
+        }
+        .coffe-cards h1{
+            font-size: medium;
+            margin-top: -20px;
+        }
+    .coffe-cards p{
+        font-size: 1.7vh;
+    }
+    .beans-corner{
+    padding: 40px 0;
 }
+.beans-corner img{
+width: 150%;
+}
+.beans-corner p{
+font-size: large;
+font-weight: 600;}
+.ice-coffee-corner .ice-cards{
+    width: 150px;
+    height: 170px;
+}
+.ice-coffee-corner2 .ice-cards{
+    width: 150px;
+    height: 170px;
+}
+.ice-cards img{
+    width: 90px;
+    height: 90px;
+    top: -40px;
+}
+.ice-cards h1{
+    font-size: large;
+    margin-top: -20px;
+}
+.beans-corner .beans-cards{
+    width: 170px;
+    height: 170px;
+}
+.beans-cards img{
+    position: relative;
+    top: -90px;
+    width: 100px;
+}}
+
 /* for mobile */
 @media (max-width:420px) {
     
@@ -228,8 +417,68 @@ h3{
         .nav-side img{
             width: 100px;
         }
+    .coffee-corner{
+            display: grid;
+            grid-template-columns: 1;
+            gap: 40px;
+            margin-top: 50px;
+            margin-bottom: 70px;
+        }
+        .coffee-corner2{
+            display: grid;
+            grid-template-columns: 1;
+            gap: 40px;
+            margin-top: 30px;
+            margin-bottom: 70px;
+        }
+.beans-corner{
+display: grid;
+padding: 0;
+margin: 0;
+margin-bottom: 60px;}
+.beans-corner img{
+width: 80%;
+display: block;
+margin: 0 auto;}
+.beans-corner p{
+font-size: 2.6vh;
+font-weight: 200;
+margin: 0;
+text-align: justify;
+padding: 20px;}
+.ice-coffee-corner{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 40px;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+.ice-coffee-corner2{
+    display: grid;
+    grid-template-columns: 1;
+    gap: 50px;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.beans-corner{
+    display: grid;
+    grid-template-columns: 1;
+    margin-top: 80px;
+    gap: 80px;
+}
+.beans-cards img{
+    width: 100px;
+    position: relative;
+}
+.beans h4{
+    font-size: 20px;
+    margin-top: -180px;
+}
+
 
 }
+
+
 
 
 
