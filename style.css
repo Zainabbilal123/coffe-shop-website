@@ -266,6 +266,31 @@ transition: transform 0.5s ease-in-out 0.9s ;
     text-transform: capitalize;
     color:#322C2B;
  }   
+ footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    padding-top: 50px;
+    background-color: #757272;
+    color: #020202;
+    
+ }
+ footer ul{
+    margin-bottom: 20px;
+ }
+ footer h4{
+    margin-bottom: 20px;
+ }
+ footer ul li{
+    list-style-type: none;
+    padding-top: 5px;
+ }
+ footer a img{
+    width: 30px;
+    padding: 5px;
+    border-radius: 5px;
+
+ }
 
 
 /* for pc */
